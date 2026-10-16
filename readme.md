@@ -1,5 +1,11 @@
 # CoW Unit Sprite Suite
 
+### Get it here: https://reactorcore.itch.io/cow-unit-sprite-suite
+
+![cover](promo/cover_1280x720.png)
+
+## About
+
 A free workflow toolkit for making new unit sprites for **[Commander Wars](https://commander-wars.pages.dev/)**, the open-source Advance Wars-style strategy game for PC.
 
 Draw your units in plain Orange Star red, like the original games. The suite converts them into Commander Wars' mask format — the washed-out "ugly palette" the game's sprite files use, which is bizarre to draw in directly. The game then recolors that one file for every army.
