@@ -1,0 +1,7 @@
+micro__
+mini__
+ultralight__
+light__
+medium__
+heavy__
+superheavy__

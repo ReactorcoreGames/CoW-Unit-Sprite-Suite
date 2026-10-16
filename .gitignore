@@ -1,0 +1,38 @@
+# Retired WIP material
+old wip/
+
+# Build products (build_release.bat recreates them)
+dist/
+build/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Tool output and local settings
+output/
+wildcards.config.json
+reference/verify_*.png
+
+# Trailer renders (tools/build_trailer.py recreates them) and the music
+# track: YouTube Audio Library music may be used in videos, not redistributed.
+promo/trailer/*.mp4
+promo/trailer/keyframes/
+*.mp3
+
+# Claude Code
+.claude/
+
+# Optional local checkout of the Commander Wars repository (has its own repo;
+# convert.frame_counts reads its res.xml files when present).
+upstream/
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

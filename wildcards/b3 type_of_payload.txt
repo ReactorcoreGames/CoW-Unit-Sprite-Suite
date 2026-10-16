@@ -1,0 +1,1218 @@
+laser__
+plasma__
+napalm__
+flame__
+tesla__
+electro__
+thermo__
+cryo__
+bio__
+pyro__
+hydro__
+aero__
+geo__
+bio__
+chem__
+nuclear__
+magneto__
+gravito__
+radio__
+signal__
+chrono warp__
+chrono erasure__
+neuro__
+lightning__
+zap__
+memory erasure__
+hypnosis__
+trance__
+mind control__
+pacification__
+sleep__
+amnesia__
+enslavement__
+sedative__
+inebriation__
+intoxication__
+restraint__
+stasis__
+capture__
+brainwash__
+assimilation__
+transformation__
+polymorphing__
+fear__
+sonar__
+anxiety__
+delirium__
+energy vortex__
+whirlpool__
+cyclone__
+hurricane__
+typhoon__
+vortex__
+radiant__
+inferno__
+blizzard__
+hurricane__
+cyclone__
+typhoon__
+lunar dust__
+jovian gas__
+solar material__
+solar flare__
+rift__
+gravity vortex__
+pyre__
+infernal__
+thorazine__
+paralysis__
+void__
+entropy__
+chaos__
+ember__
+gamma radiation__
+beta radiation__
+alpha radiation__
+neutron__
+positron__
+ion__
+phaser__
+plasma__
+tachyon__
+graviton__
+ether__
+antimatter__
+dark matter__
+solar__
+lunar__
+cosmic__
+astral__
+cyber__
+synth__
+neuro__
+cyber__
+holo__
+electrostatic__
+circuit__
+data__
+viral__
+photon__
+laser__
+crystal__
+steel__
+copper__
+silver__
+gold__
+mercury__
+cobalt__
+ember__
+obsidian__
+basalt__
+moss__
+vine__
+root__
+thorn__
+wind__
+ash__
+sand__
+steam__
+flame__
+frost__
+shock__
+venom__
+acid__
+rust__
+blast__
+demon__
+holy__
+unholy__
+angel__
+aether__
+smoke__
+shadow__
+light__
+arcane__
+nullification__
+blaze__
+ember__
+spark__
+iron__
+lead__
+wood__
+stone__
+electro__
+thermo__
+cryo__
+bio__
+pyro__
+hydro__
+aero__
+geo__
+chem__
+plasma__
+sound__
+sonic__
+toxic__
+grav__
+rad__
+magneto__
+illumination__
+psionic__
+hard light__
+ultrasonic__
+thermoacoustic__
+petrification__
+vitrification__
+gelatinization__
+saponification__
+mummification__
+mineralization__
+fossilization__
+polymerization__
+ossification__
+metallization__
+carbonization__
+plasterification__
+ichorification__
+ceramification__
+encrustation__
+lithification__
+calcification__
+crystallization__
+transmutation__
+translocation__
+nullification__
+infatuation__
+zombification__
+ferrofluid__
+stupor__
+confusion__
+enrage__
+stupidification__
+dark-fire__
+hair__
+fur__
+fluff__
+sugar__
+ichor__
+ambrosia__
+candy__
+cotton candy__
+fire-ice__
+earth-wind-fire-water__
+harmless__
+love__
+cupid__
+spark__
+biomass__
+snow__
+wax__
+brine__
+firecracker__
+firework__
+alchemical__
+gunpowder__
+propane__
+anti-freeze__
+cast iron__
+chaff__
+flak__
+voltage__
+magma__
+stun__
+scrap__
+portal__
+noise__
+gravity__
+sonic__
+ultrasonic__
+flux__
+microwave__
+energy__
+toxin__
+stone__
+mass__
+signal__
+mineral__
+energy__
+nuclear__
+radiation__
+light__
+illumination__
+confetti__
+glitter__
+birdseed__
+pepper__
+salt__
+cinnamon__
+lubricant__
+laundry detergent__
+toilet cleaner__
+fabric softener__
+coffee beans__
+shampoo__
+dish soap__
+deodorant__
+cream__
+mayonaise__
+ketchup__
+money__
+coin__
+oats__
+wheat__
+soylent__
+mustard__
+coconut__
+pineapple__
+honeymelon__
+honey__
+popcorn__
+magma__
+cantaloupe__
+grapefruit__
+banana__
+aggressive music__
+eerie music__
+uplifting music__
+sad music__
+ambient music__
+intense music__
+relaxing music__
+romantic music__
+dark music__
+watermelon__
+peanuts__
+almonds__
+hazel nuts__
+butter__
+vinegar__
+sunflower seed__
+flax seeds__
+pumpkin seed__
+raisin__
+milk__
+hummus__
+pesto__
+vegemite__
+mozarella__
+cheddar__
+parmesan__
+feta__
+caramel__
+lotion__
+olive__
+chilli__
+lego__
+nutella__
+dough__
+syrup__
+strawberry jam__
+strawberry__
+lingonberry__
+raspberry__
+blueberry__
+turpentine__
+bleach__
+baking soda__
+grease__
+epoxy__
+spit__
+floral__
+seed__
+grass__
+hay__
+nectar__
+cement__
+cloning__
+fusion__
+photon__
+shock__
+radium__
+electron__
+graviton__
+positron__
+tachyon__
+neutron__
+gluon__
+paint__
+dark matter__
+anti matter__
+dimensional__
+singularity__
+nullwave__
+viral__
+virus__
+bacteria__
+bacterial__
+plague__
+ion__
+force__
+x-ray__
+black hole__
+zero-point__
+egg__
+fungus__
+spore__
+biohazard__
+mutant__
+mutagen__
+dynamite__
+thunder__
+acid__
+ammonia__
+blight__
+flesh__
+sinew__
+gore__
+meat__
+marrow__
+fat__
+skin__
+tissue__
+muscle__
+cartilage__
+cryo__
+blood__
+bone__
+rot__
+mold__
+fungal__
+urine__
+fecal__
+sweat__
+bile__
+vomit__
+inferno__
+perfume__
+cologne__
+neutronium__
+depleted uranium__
+tungsten__
+crystal__
+stone__
+rock__
+sand__
+gravity well__
+thermobaric__
+glass__
+plastic__
+nanoswarm__
+concussion__
+chemical reaction__
+fuel-air__
+thermobaric__
+pyrotechnic__
+pyroshock__
+asteroid__
+space junk__
+meteorite__
+comet__
+silicate__
+lava__
+sulfur__
+magnetar__
+pulsar__
+quasar__
+neutron star__
+singularity__
+black hole__
+hawking radiation__
+wormhole__
+dark matter__
+dark energy__
+antimatter__
+solar flare__
+coronal mass ejection__
+protostar__
+red giant__
+white dwarf__
+brown dwarf__
+blue giant__
+supergiant__
+hypergiant__
+binary star__
+variable star__
+t tauri star__
+wolf-rayet star__
+cepheid variable star__
+supernova__
+hypernova__
+galactic core__
+stellar cluster__
+galactic halo__
+stellar wind__
+x-ray__
+ultraviolet__
+infrared__
+radio wave__
+microwave__
+neutrino__
+cosmic ray__
+stellar remnant__
+big bang__
+thermonuclear__
+temgrav__
+void__
+reality disruption__
+chaos__
+vacuum__
+fuel air__
+mutagen__
+stasis__
+temporal__
+chrono__
+smoke__
+steam__
+ink__
+petroleum__
+gasoline__
+diesel__
+glue__
+super glue__
+water__
+oil__
+crude oil__
+fuel__
+concrete__
+rebar__
+methane__
+asbestos__
+kerosene__
+psionic__
+thermite__
+coal__
+diamond__
+nanocarbon__
+phase__
+phaser__
+biomass__
+biofuel__
+mucus__
+sewage__
+trash__
+filth__
+medical__
+pharmaceutical__
+drug__
+stimulant__
+stim__
+organism__
+garbage__
+nuclear waste__
+medical waste__
+industrial waste__
+military waste__
+aerospace waste__
+construction waste__
+tnt__
+quake__
+tranquilizer__
+tranq__
+heat__
+thermal__
+thermic__
+white phosphorus__
+seismic__
+power__
+nerve__
+biocide__
+herbicide__
+pesticide__
+parasiticide__
+microbicide__
+germicide__
+fungicide__
+algaecide__
+insecticide__
+reptilicide__
+virucide__
+mammalicide__
+piscicide__
+molluscicide__
+phytocide__
+faunacide__
+protozoacide__
+crustacide__
+coelenterocide__
+sporicide__
+larvicide__
+echinocide__
+acaricide__
+photocide__
+xenocide__
+radiocide__
+thermocide__
+cryocide__
+electrocide__
+geocide__
+furrycide__
+avicide__
+pollution__
+floricide__
+ovicide__
+silvicide__
+lithocide__
+gemicide__
+energocide__
+weedicide__
+vermicide__
+arboricide__
+mariticide__
+ichthyocide__
+phycocide__
+repellent__
+attractant__
+lure__
+pheromone__
+kairomone__
+allomone__
+deterrent__
+detergent__
+soap__
+surfactant__
+emulsifier__
+disinfectant__
+sanitizer__
+deodorizer__
+solvent__
+sterilant__
+nitro__
+poison__
+napalm__
+hydrazine__
+hydrogen__
+resin__
+clay__
+quartz__
+graphene__
+ammonia__
+rubber__
+silicone__
+silk__
+helium__
+nitrogen__
+hydrogen__
+helium__
+lithium__
+beryllium__
+boron__
+carbon__
+nitrogen__
+oxygen__
+fluorine__
+neon__
+sodium__
+magnesium__
+aluminium__
+silicon__
+phosphorus__
+sulfur__
+chlorine__
+argon__
+potassium__
+calcium__
+scandium__
+titanium__
+formaldehyde__
+dioxin__
+steam__
+nature__
+soul__
+bug__
+critter__
+avian__
+fish__
+reptile__
+mammal__
+aerogel__
+ember__
+smoke__
+psychoactive__
+amanita__
+cordyceps__
+gemstone__
+teleportatium__
+repellium__
+vanadium__
+chromium__
+manganese__
+iron__
+cobalt__
+nickel__
+copper__
+zinc__
+gallium__
+germanium__
+arsenic__
+selenium__
+bromine__
+krypton__
+rubidium__
+strontium__
+yttrium__
+zirconium__
+niobium__
+molybdenum__
+technetium__
+ruthenium__
+rhodium__
+palladium__
+silver__
+cadmium__
+indium__
+tin__
+antimony__
+tellurium__
+iodine__
+xenon__
+cesium__
+barium__
+lanthanum__
+cerium__
+praseodymium__
+neodymium__
+promethium__
+samarium__
+europium__
+gadolinium__
+terbium__
+dysprosium__
+holmium__
+erbium__
+thulium__
+ytterbium__
+lutetium__
+hafnium__
+tantalum__
+tungsten__
+rhenium__
+osmium__
+iridium__
+platinum__
+gold__
+mercury__
+thallium__
+lead__
+bismuth__
+polonium__
+astatine__
+radon__
+francium__
+radium__
+actinium__
+thorium__
+protactinium__
+uranium__
+neptunium__
+plutonium__
+elerium__
+luminite__
+orichalcum__
+prometheum__
+vibranium__
+unobtainium__
+dilithium__
+eternium__
+adamantium__
+mythril__
+black powder__
+potassium nitrate__
+charcoal__
+sulfur__
+aluminum powder__
+magnesium powder__
+strontium nitrate__
+barium nitrate__
+copper compounds__
+titanium powder__
+potassium perchlorate__
+sodium nitrate__
+calcium carbonate__
+shellac__
+dextrin__
+marble__
+granite__
+quartz__
+bamboo__
+cork__
+linoleum__
+terracotta__
+porcelain__
+steel__
+aluminum__
+brass__
+copper__
+iron__
+zinc__
+nickel__
+granite__
+marble__
+limestone__
+sandstone__
+slate__
+basalt__
+quartzite__
+soapstone__
+travertine__
+obsidian__
+flint__
+schist__
+gneiss__
+chalk__
+polyethylene__
+polypropylene__
+pvc__
+polystyrene__
+polycarbonate__
+acrylic__
+nylon__
+teflon__
+abs plastic__
+pet plastic__
+polyurethane__
+bakelite__
+epoxy resin__
+silicone__
+ldpe plastic__
+oak__
+mahogany__
+pine__
+cedar__
+maple__
+cherry__
+walnut__
+birch__
+teak__
+ash__
+redwood__
+bamboo__
+hickory__
+beech__
+fir__
+alabaster__
+diamond__
+ruby__
+sapphire__
+emerald__
+amethyst__
+topaz__
+opal__
+garnet__
+aquamarine__
+peridot__
+turquoise__
+jade__
+pearl__
+citrine__
+onyx__
+spruce__
+sycamore__
+elm__
+alder__
+poplar__
+rosewood__
+ebony__
+hemlock__
+chestnut__
+larch__
+polyethylene foam__
+cellophane__
+phenolic resin__
+melamine__
+vinyl__
+acetal__
+styrofoam__
+polyimide__
+dolomite__
+rhyolite__
+pumice__
+tuff__
+conglomerate__
+breccia__
+diorite__
+andesite__
+siltstone__
+shale__
+lapis lazuli__
+tourmaline__
+moonstone__
+tanzanite__
+bloodstone__
+amber__
+alexandrite__
+malachite__
+spinel__
+chrysoprase__
+stone__
+sand__
+timber__
+tar__
+gypsum__
+grout__
+tar paper__
+copper__
+lead__
+clay__
+concrete__
+cement__
+asphalt__
+plywood__
+fiberglass__
+glass__
+ceramic__
+terrazzo__
+plaster__
+steel__
+aluminum__
+lumber__
+rubber__
+galvanized steel__
+steel__
+stainless steel__
+bronze__
+brass__
+pewter__
+cast iron__
+wrought iron__
+duralumin__
+solder__
+inconel__
+nichrome__
+electrum__
+rust__
+titanium alloy__
+zinc alloy__
+molybdenum alloy__
+tungsten carbide__
+magnalium__
+monel__
+speed__
+dynamite__
+isotope__
+tnt__
+trinitrotoluene__
+c-4__
+nitroglycerin__
+rdx__
+petn__
+anfo__
+ammonium nitrate__
+fuel oil__
+semtex__
+hmx__
+black powder__
+gunpowder__
+flash powder__
+amatol__
+tetryl__
+cyclonite__
+picric acid__
+lead azide__
+mercury fulminate__
+silver fulminate__
+urea nitrate__
+hexamine peroxide__
+penthrite__
+nitrocellulose__
+lead styphnate__
+chlorate mixtures__
+triacetone triperoxide__
+hexamethylene triperoxide diamine__
+nitrostarch__
+silver azide__
+diazodinitrophenol__
+hexanitrostilbene__
+nitroguanidine__
+ethylene glycol dinitrate__
+picratol__
+pentolite__
+pyrodex__
+dbx__
+torpex__
+baratol__
+minol__
+astrolite__
+tovex__
+detasheet__
+emulsion__
+octol__
+ednatol__
+primasheet__
+amatex__
+baratite__
+hbx__
+lx-14__
+lx-17__
+pbx__
+torpex__
+hbx-1__
+pbxn-109__
+tetrytol__
+hta-3__
+pentolite__
+ammonium picrate__
+cordite__
+nitramite__
+pyrolite__
+kinepak__
+kenite__
+ammonal__
+cyclotol__
+astrolite g__
+formex p1__
+redox__
+plastex__
+r-salt__
+sodatol__
+nitramon__
+primacord__
+surefire__
+pyrolance__
+venom__
+poison__
+toxin__
+nematocyst__
+neurotoxin__
+cytotoxin__
+hemotoxin__
+necrotoxin__
+myotoxin__
+cardiotoxin__
+ion channel toxin__
+enzymatic venom__
+coagulant__
+anticoagulant__
+tritium__
+deuterium__
+ferrofluid__
+clonium__
+infernium__
+thunderium__
+explosium__
+nitroglycerin__
+agitated neutron mass__
+cytolytic toxin__
+paralytic venom__
+envenomated hair__
+toxic secretion__
+toxic spray__
+virulent fluid__
+potent phytotoxin__
+venomous compound__
+paralytic secretion__
+neurotoxic saliva__
+hemorrhagic toxin__
+necrotic venom__
+dermonecrotic poison__
+cytotoxic venom__
+hepatotoxin__
+nephrotoxin__
+myotoxin__
+myonecrotic toxin__
+neuroparalytic toxin__
+acetylcholinesterase inhibitor__
+phospholipase a2 toxin__
+proteolytic venom component__
+procoagulant__
+anticoagulant__
+platelet aggregator__
+ink__
+slime__
+irritant secretion__
+noxious spray__
+adhesive glue__
+repellent odor__
+chitinase__
+venom enzyme__
+digestive enzyme__
+proteolytic enzyme__
+lipolytic enzyme__
+silk__
+gossamer__
+byssus__
+bee wax__
+ant acid__
+formic acid__
+propolis__
+honeydew__
+ant resin__
+spider web adhesive__
+paper pulp__
+fungal biomass__
+ant fungus__
+termite fungus__
+ambergris__
+castor__
+castoreum__
+hyraceum__
+musk__
+urushiol__
+phoratoxin__
+batrachotoxin__
+epibatidine__
+maitotoxin__
+palytoxin__
+tetrodotoxin__
+ciguatoxin__
+gonyautoxins__
+yessotoxins__
+cyanogenic glycosides__
+cardiac glycosides__
+bufadienolides__
+ouabain__
+calcicludine__
+plutonium__
+deltamethrin__
+allomone__
+kairomone__
+antimicrobial peptides__
+lectin__
+pheromone__
+bombykol__
+seducin__
+solenopsin__
+venom allergen__
+chitosan__
+quercetin__
+allantoin__
+bufotenine__
+serotonin__
+histamine__
+melittin__
+apamin__
+charybdotoxin__
+dracula toxin__
+crotamine__
+phospholipase b__
+hyaluronidase__
+l-amino acid oxidase__
+prophenoloxidase activators__
+quinone tanning__
+prussic acid__
+nicotine__
+strychnine__
+pyrrolizidine alkaloids__
+grayanotoxins__
+lolitrems__
+pleuromutilin__
+terpenoids__
+furanosesquiterpenes__
+biogenic amines__
+siderophores__
+azaspiracids__
+pinnatoxins__
+okadaic acid__
+ryanodine__
+imperacin__
+lingzhine__
+torreyanic acid__
+allergen__
+mutagen__
+carcinogen__
+teratogen__
+neurotoxin__
+endocrine disruptor__
+phytoxin__
+mycotoxin__
+probiotic__
+antigen__
+vaccine__
+toxin__
+dna__
+gaia__
+eden__
+hormone__
+enzyme__
+gene__
+embryotoxin__
+hemotoxin__
+cardiotoxin__
+nephrotoxin__
+hepatotoxin__
+immunosuppressant__
+immunostimulant__
+anxiolytic__
+sedative__
+stimulant__
+narcotic__
+analgesic__
+antipyretic__
+anticonvulsant__
+antihistamine__
+antispasmodic__
+antioxidant__
+antimicrobial__
+antibiotic__
+antiviral__
+gossamer__
+brocade__
+georgette__
+muslin__
+crepe__
+taffeta__
+voile__
+chambray__
+seersucker__
+poplin__
+corduroy__
+burlap__
+flannel__
+lycra__
+microfiber__
+tartan__
+gabardine__
+batik__
+damask__
+terrycloth__
+cotton__
+silk__
+wool__
+linen__
+polyester__
+nylon__
+rayon__
+spandex__
+acrylic__
+velvet__
+chiffon__
+denim__
+satin__
+leather__
+fleece__
+tweed__
+jersey__
+cashmere__
+organza__
+tulle__
+cotton__
+silk__
+gossamer__
+wool__
+linen__
+satin__
+velvet__
+chiffon__
+polyester__
+nylon__
+rayon__
+spandex__
+cashmere__
+tentacle__
+latex__
+pearl__
+jewel__
+gem__
+sequin__
+lace__
+denim__
+corduroy__
+flannel__
+fleece__
+jersey__
+muslin__
+organza__
+tulle__
+voile__
+tweed__
+chenille__

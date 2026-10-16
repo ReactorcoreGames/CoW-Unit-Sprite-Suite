@@ -1,0 +1,1101 @@
+evil general__
+evil male__
+thug__
+dictator__
+overlord__
+tyrant__
+villain__
+criminal__
+outlaw__
+bandit__
+rogue__
+assassin__
+henchman__
+warlord__
+despot__
+fiend__
+marauder__
+pirate__
+conman__
+terrorist__
+mobster__
+gangster__
+nemesis__
+vandal__
+brute__
+rebel__
+oppressor__
+warlock__
+sorcerer__
+necromancer__
+betrayer__
+traitor__
+saboteur__
+smuggler__
+scoundrel__
+blackmailer__
+tyrant__
+invader__
+usurper__
+corruptor__
+extortionist__
+kidnapper__
+arsonist__
+poacher__
+racketeer__
+mugger__
+swindler__
+charlatan__
+slave-driver__
+dictator__
+mastermind__
+enforcer__
+sadist__
+executioner__
+extortionist__
+henchman__
+jailer__
+menace__
+scourge__
+schemer__
+psychopath__
+sociopath__
+war criminal__
+drug lord__
+trafficker__
+bomber__
+raider__
+cannibal__
+infamous__
+torturer__
+provocateur__
+fanatic__
+extremist__
+cult leader__
+sadist__
+oppressor__
+blackguard__
+creep__
+deceiver__
+defiler__
+devastator__
+egotist__
+fanatic__
+oppressor__
+plunderer__
+psychopath__
+rebel__
+reprobate__
+scoundrel__
+sinister__
+villain__
+warmonger__
+zealot__
+evil female	__
+sorceress__
+witch__
+femme fatale__
+seductress__
+queen__
+empress__
+enchantress__
+matriarch__
+siren__
+assassin__
+black widow__
+succubus__
+betrayer__
+diva__
+schemer__
+dominatrix__
+dark lady__
+temptress__
+vixen__
+mistress__
+poisoner__
+warlady__
+overlady__
+tyrant__
+dictatrix__
+vengeful ex__
+step-mother__
+cruel mistress__
+bandit queen__
+queenpin__
+henchwoman__
+pirate queen__
+lady of shadows__
+sorcerer-queen__
+high priestess__
+warlockess__
+baroness__
+cannibal queen__
+puppet mistress__
+con artist__
+trickster__
+gang leader__
+kidnapper__
+trafficker__
+mad scientist__
+rebel leader__
+crime lord__
+blackmailer__
+extortionist__
+arsonist__
+smuggler__
+racketeer__
+corrupt official__
+drug queen__
+femme fatale__
+jailer__
+cult leader__
+war criminal__
+sadist__
+sociopath__
+psychopath__
+extremist__
+fanatic__
+zealot__
+menace__
+dark enchantress__
+malevolent spirit__
+harpy__
+medusa__
+cruel ruler__
+ice queen__
+despot__
+lady thief__
+brute__
+rebel__
+sorceress supreme__
+demonic lady__
+war witch__
+phantom queen__
+shadow mistress__
+vile sorceress__
+evil genius__
+infiltrator__
+manipulator__
+coercer__
+defiler__
+deceiver__
+enslaver__
+infamous outlaw__
+ruthless leader__
+warmonger__
+dictatrix__
+queen of shadows__
+evil group__
+cult__
+mafia__
+slave empire__
+gang__
+syndicate__
+cartel__
+brotherhood__
+clan__
+cabal__
+crime ring__
+terrorist cell__
+dark order__
+assassin guild__
+band of thieves__
+pirate crew__
+mercenary company__
+smuggling ring__
+black market__
+rebellion__
+insurgency__
+secret society__
+corrupt corporation__
+rogue nation__
+shadow government__
+drug cartel__
+crime family__
+mob__
+warband__
+marauders__
+raiders__
+war cult__
+death squad__
+fanatic sect__
+extremist group__
+anarchist collective__
+rogue militia__
+dark covenant__
+forbidden circle__
+necromancer coven__
+dark brotherhood__
+warlord's horde__
+blood cult__
+heretic order__
+forbidden sect__
+undead legion__
+corrupt syndicate__
+brute squad__
+shadow consortium__
+poisoners' guild__
+sorcerers' circle__
+tyrant’s guard__
+inquisition__
+evil empire__
+oppressors' league__
+sinister alliance__
+rebel faction__
+villain collective__
+corruption network__
+blood brotherhood__
+infernal pact__
+night clan__
+scoundrels' gang__
+reprobate ring__
+warlocks' order__
+dark cabal__
+secret faction__
+despot's army__
+executioners' guild__
+cruel overseers__
+enforcers' union__
+dark syndicate__
+forbidden alliance__
+bandit alliance__
+ruthless regiment__
+sinister guild__
+rogue enclave__
+shadow clan__
+dark network__
+obsidian order__
+infamous league__
+malevolent circle__
+blood pact__
+vile horde__
+desolate legion__
+dark triad__
+malignant sect__
+anarchist brotherhood__
+ruthless cartel__
+oppressor empire__
+underworld syndicate__
+terror network__
+sinister clan__
+infamous mob__
+dark alliance__
+murderous gang__
+chaos collective__
+dread order__
+villainous union__
+evil league__
+black hand__
+warrior__
+mage__
+paladin__
+rogue__
+hunter__
+warlock__
+bard__
+cleric__
+druid__
+ranger__
+sorcerer__
+monk__
+barbarian__
+necromancer__
+assassin__
+alchemist__
+shaman__
+ghost hunter__
+knight__
+rebel__
+archer__
+mind controller__
+hypnotist__
+beastmaster__
+berserker__
+champion__
+crusader__
+mystic__
+invoker__
+templar__
+priest__
+elementalist__
+psionicist__
+battlemage__
+spellblade__
+hexblade__
+shadowblade__
+spellcaster__
+thief__
+enchanter__
+witch__
+witch hunter__
+illusionist__
+conjurer__
+geomancer__
+pyromancer__
+cryomancer__
+stormcaller__
+summoner__
+seer__
+oracle__
+valkyrie__
+inquisitor__
+gladiator__
+swashbuckler__
+sellsword__
+mercenary__
+merchant__
+broker__
+tycoon__
+samurai__
+ninja__
+ronin__
+sensei__
+pirate__
+buccaneer__
+corsair__
+privateer__
+dragoon__
+lancer__
+musketeer__
+gunslinger__
+sniper__
+sharpshooter__
+quartermaster__
+blademaster__
+swordmaster__
+swordsman__
+axeman__
+spearman__
+halberdier__
+pikeman__
+crossbowman__
+bowman__
+longbowman__
+marksman__
+spellwright__
+runecaster__
+runemaster__
+arcane archer__
+magic knight__
+holy knight__
+dark knight__
+death knight__
+blood knight__
+void knight__
+guardian__
+sentinel__
+warden__
+protector__
+defender__
+intel gatherer__
+champion__
+vanguard__
+amateur__
+novice__
+juggernaut__
+colossus__
+titan__
+reaper__
+harbinger__
+scion__
+chosen__
+ascendant__
+paragon__
+adept__
+operative__
+secret agent__
+spy__
+infiltrator__
+trapper__
+strike commander__
+biker__
+detective__
+troubleshooter__
+savant__
+inventor__
+soldier__
+marine__
+trooper__
+pilot__
+starfighter pilot__
+space ranger__
+bounty hunter__
+gadgeteer__
+technomancer__
+mechwarrior__
+cyborg__
+robot__
+android__
+janitor__
+reporter__
+synthetic__
+clone__
+biomorph__
+telepath__
+telekinetic__
+mindbender__
+chronomancer__
+timewalker__
+dimension walker__
+planeshifter__
+reality bender__
+quantum mage__
+starcaster__
+starseer__
+astromancer__
+voidwalker__
+galactic knight__
+cosmic warrior__
+alienist__
+xenobiologist__
+roboticist__
+engineer__
+scientist__
+geneticist__
+bioengineer__
+chemist__
+physicist__
+medtech__
+medic__
+doctor__
+nurse__
+vigilante__
+comedian__
+field surgeon__
+combat medic__
+healer__
+white mage__
+lightbringer__
+sunpriest__
+lunar priest__
+moondancer__
+star priest__
+void priest__
+shadow priest__
+dark mage__
+dark lord__
+overlord__
+archmage__
+grandmaster__
+sage__
+civilian__
+hierophant__
+diviner__
+truthseeker__
+lorekeeper__
+runekeeper__
+spellweaver__
+dreamweaver__
+nightmare weaver__
+warshaper__
+soulshaper__
+spiritwalker__
+shapeshifter__
+shopkeeper__
+wrestler__
+courrier__
+phantom__
+ghost__
+specter__
+wraith__
+banshee__
+lich__
+revenant__
+wight__
+vampire__
+lycanthrope__
+werewolf__
+ghoul__
+zombie__
+mummy__
+skeleton__
+bone knight__
+deathmage__
+gravekeeper__
+tomb raider__
+crypt stalker__
+dark avenger__
+shadowstalker__
+nightblade__
+moonblade__
+sunblade__
+stormblade__
+fireblade__
+frostblade__
+earthshaker__
+windwalker__
+wave rider__
+tidecaller__
+seeker__
+wanderer__
+nomad__
+vagabond__
+hacker__
+outlaw__
+ranger__
+pathfinder__
+trailblazer__
+scout__
+explorer__
+pioneer__
+tracker__
+beast tamer__
+beast rider__
+beast caller__
+beast whisperer__
+animal handler__
+falconer__
+hawkeye__
+sharpshot__
+gunzerker__
+techblade__
+cyberblade__
+neural knight__
+psi knight__
+firefigther__
+construction worker__
+breacher__
+roamer__
+fragger__
+support specialist__
+builder__
+guardsman__
+scientist__
+mechanic__
+mech pilot__
+transporter__
+electrician__
+plumber__
+carpenter__
+chef__
+farmer__
+welder__
+blacksmith__
+technician__
+engineer__
+gardener__
+mason__
+painter__
+seamstress__
+machinist__
+roofer__
+locksmith__
+glassblower__
+sculptor__
+tailor__
+fisherman__
+beekeeper__
+surveyor__
+survivor__
+law enforcer__
+arborist__
+tile setter__
+stonemason__
+woodworker__
+infantryman__
+officer__
+captain__
+general__
+lieutenant__
+sergeant__
+corporal__
+private__
+commander__
+admiral__
+colonel__
+major__
+brigadier__
+cadet__
+ensign__
+sailor__
+airman__
+marine__
+gunner__
+sniper__
+scout__
+paratrooper__
+medic__
+engineer__
+armorer__
+tanker__
+pilot__
+combat expert__
+battlemaster__
+navigator__
+signalman__
+radioman__
+musician__
+artilleryman__
+quartermaster__
+logistician__
+special forces operative__
+military police__
+cryptographer__
+intelligence analyst__
+grenadier__
+demolitionist__
+spy__
+sharpshooter__
+reconnaissance specialist__
+saboteur__
+ranger__
+bomber__
+commando__
+bomb technician__
+combat engineer__
+tactical officer__
+field operator__
+artificer__
+radiological specialist__
+cyberwarfare specialist__
+drone operator__
+mortarman__
+flamethrower__
+heavy gunner__
+anti-tank specialist__
+breacher__
+combat medic__
+pathfinder__
+forward observer__
+explosive ordnance disposal technician__
+machine gunner__
+anti-aircraft gunner__
+scout sniper__
+k9 handler__
+analyst__
+field artillery officer__
+weapons specialist__
+combat diver__
+sapper__
+mounted infantryman__
+guerrilla fighter__
+psychological operations specialist__
+psyops specialist__
+information operations specialist__
+civil affairs officer__
+military advisor__
+uav operator__
+aikidoka__
+boxer__
+budoka__
+brawler__
+capoeirista__
+combatant__
+escrimer__
+fencer__
+fighter__
+gladiator__
+grappler__
+guro__
+judoka__
+karateka__
+kempoka__
+kenshi__
+kickboxer__
+kung fu practitioner__
+gun kata practitioner__
+gun fu practitioner__
+sumo wrestler__
+savateur__
+kali practitioner__
+jujitsuka__
+krav maga practitioner__
+kundalistra__
+martial artist__
+mma fighter__
+shaolin monk__
+luchador__
+freestyle wrestler__
+greco-roman wrestler__
+thai boxer__
+fencer__
+kendo practitioner__
+muay thai fighter__
+ninja__
+ninjutsu practitioner__
+pugilist__
+samurai__
+sifus__
+streetfighter__
+swordsman__
+taekwondoin__
+wrestler__
+hokuto shinken practitioner__
+saikyo-ryu practitioner__
+ansatsuken practitioner__
+rindokan karateka__
+taiyoken practitioner__
+nanto seiken practitioner__
+zui quan practitioner__
+rokushiki practitioner__
+fishman karate practitioner__
+santoryu swordsman__
+hiten mitsurugi-ryu swordsman__
+drunken boxing master__
+pressure point fighter__
+shinobi__
+spirit detective__
+alchemy fighter__
+magician martial artist__
+esper__
+ki warrior__
+devil hunter__
+demon slayer__
+ghost fighter__
+cybernetic martial artist__
+mecha pilot__
+bio-enhanced fighter__
+arcane archer__
+elemental monk__
+shadow assassin__
+technomancer__
+psionic warrior__
+summoner martial artist__
+spellblade__
+astral combatant__
+valkyrie fighter__
+chrono fighter__
+rune fighter__
+dark knight__
+paladin__
+dragon slayer__
+necromancer combatant__
+space marine__
+cosmic warrior__
+celestial guardian__
+windblade samurai__
+starship trooper__
+quantum brawler__
+exorcist fighter__
+time jumper__
+energy manipulator__
+spirit warrior__
+divine avenger__
+shadow walker__
+cyber ninja__
+bio-engineer fighter__
+galactic ranger__
+stellar knight__
+mystic fist__
+phantom striker__
+moon blade__
+solar sentinel__
+thunder monk__
+lava bender__
+ice mage fighter__
+earth shaker__
+crystal guardian__
+void warrior__
+astral monk__
+venom fighter__
+blood mage__
+etheric duelist__
+rune mage fighter__
+twilight assassin__
+dream weaver__
+lightbringer__
+spectral fighter__
+mystic knight__
+storm caller__
+gravity manipulator__
+iron fist__
+ghost rider__
+warlock warrior__
+phoenix knight__
+dragon monk__
+radiant monk__
+dark sorcerer fighter__
+tempest knight__
+enigma fighter__
+mirage duelist__
+blitz brawler__
+plasma warrior__
+quantum monk__
+fusion fighter__
+ember monk__
+smoke assassin__
+luminous mage__
+vortex knight__
+necrotic fighter__
+specter monk__
+riftwalker__
+star monk__
+psi-mage__
+titan slayer__
+beast master fighter__
+arcane trickster__
+arcane warrior__
+battle mage__
+berserker__
+channeler__
+war mage__
+demon binder__
+fae warrior__
+spirit archer__
+elementalist__
+hexblade__
+spell knight__
+seer fighter__
+magus fighter__
+mana bender__
+primal hunter__
+stormbringer__
+war monk__
+rune knight__
+shamanic fighter__
+wraith fighter__
+sorcerer warrior__
+arcane duelist__
+psychic warrior__
+enchanter fighter__
+elemental archer__
+spiritblade__
+warp knight__
+phantom monk__
+eldritch knight__
+nature warrior__
+draconic monk__
+solar mage__
+temporal knight__
+void knight__
+spectral knight__
+starblade__
+timeblade__
+dreamblade__
+magic swordsman__
+warrior__
+mage__
+paladin__
+rogue__
+hunter__
+warlock__
+bard__
+cleric__
+druid__
+ranger__
+sorcerer__
+monk__
+barbarian__
+necromancer__
+assassin__
+alchemist__
+shaman__
+knight__
+archer__
+beastmaster__
+berserker__
+champion__
+crusader__
+mystic__
+invoker__
+templar__
+priest__
+elementalist__
+psionicist__
+battlemage__
+spellblade__
+hexblade__
+shadowblade__
+spellcaster__
+thief__
+enchanter__
+witch__
+witch hunter__
+illusionist__
+conjurer__
+geomancer__
+pyromancer__
+cryomancer__
+stormcaller__
+summoner__
+seer__
+oracle__
+valkyrie__
+inquisitor__
+gladiator__
+swashbuckler__
+sellsword__
+mercenary__
+samurai__
+ninja__
+ronin__
+sensei__
+pirate__
+buccaneer__
+corsair__
+privateer__
+dragoon__
+lancer__
+musketeer__
+gunslinger__
+sniper__
+sharpshooter__
+blademaster__
+swordmaster__
+swordsman__
+axeman__
+spearman__
+halberdier__
+pikeman__
+crossbowman__
+bowman__
+longbowman__
+marksman__
+spellwright__
+runecaster__
+runemaster__
+arcane archer__
+magic knight__
+holy knight__
+dark knight__
+death knight__
+blood knight__
+void knight__
+guardian__
+sentinel__
+warden__
+protector__
+defender__
+champion__
+vanguard__
+juggernaut__
+colossus__
+titan__
+reaper__
+harbinger__
+scion__
+chosen__
+ascendant__
+paragon__
+adept__
+operative__
+agent__
+spy__
+infiltrator__
+commando__
+soldier__
+marine__
+trooper__
+pilot__
+starfighter__
+space ranger__
+bounty hunter__
+gadgeteer__
+technomancer__
+mechwarrior__
+cyborg__
+android__
+synthetic__
+clone__
+biomorph__
+telepath__
+telekinetic__
+mindbender__
+chronomancer__
+timewalker__
+dimension walker__
+planeshifter__
+reality bender__
+quantum mage__
+starcaster__
+starseer__
+astromancer__
+voidwalker__
+galactic knight__
+cosmic warrior__
+alienist__
+xenobiologist__
+roboticist__
+engineer__
+scientist__
+geneticist__
+bioengineer__
+chemist__
+physicist__
+medtech__
+medic__
+doctor__
+field surgeon__
+combat medic__
+healer__
+white mage__
+lightbringer__
+sunpriest__
+lunar priest__
+moondancer__
+star priest__
+void priest__
+shadow priest__
+dark mage__
+dark lord__
+overlord__
+archmage__
+grandmaster__
+sage__
+hierophant__
+diviner__
+truthseeker__
+lorekeeper__
+runekeeper__
+spellweaver__
+dreamweaver__
+nightmare weaver__
+warshaper__
+soulshaper__
+spiritwalker__
+phantom__
+ghost__
+specter__
+wraith__
+banshee__
+lich__
+revenant__
+wight__
+vampire__
+lycanthrope__
+werewolf__
+ghoul__
+zombie__
+mummy__
+skeleton__
+bone knight__
+deathmage__
+gravekeeper__
+tomb raider__
+crypt stalker__
+dark avenger__
+shadowstalker__
+nightblade__
+moonblade__
+sunblade__
+stormblade__
+fireblade__
+frostblade__
+earthshaker__
+windwalker__
+wave rider__
+tidecaller__
+seeker__
+wanderer__
+nomad__
+vagabond__
+outlaw__
+ranger__
+pathfinder__
+trailblazer__
+scout__
+explorer__
+tracker__
+beast tamer__
+beast rider__
+beast caller__
+beast whisperer__
+animal handler__
+falconer__
+hawkeye__
+sharpshot__
+gunzerker__
+techblade__
+cyberblade__
+neural knight__
+psi knight__

@@ -1,0 +1,151 @@
+{
+  "note": "Phase 4 prompt templates, revision 4 -- the user's own format. A prompt is eight parts in fixed order, each picked independently: subject, addon, view, layout, background, style, outlines, palette. Aspect ratio is deliberately absent: the image generator sets it, and that is the user's call, not the program's. Unit class plays no part: the prompt reads the same for every class, and which reference image to load is the user's pick.",
+  "budget": 1000,
+  "order": [
+    "subject",
+    "addon",
+    "view",
+    "layout",
+    "background",
+    "style",
+    "outlines",
+    "palette"
+  ],
+  "subject": "{subject} as a game sprite in the style of Advance Wars.",
+  "addon": {
+    "default": "none",
+    "options": {
+      "bold": {
+        "label": "Bold simple shape",
+        "text": "A bold simple shape that stays readable when scaled down very small."
+      },
+      "none": {
+        "label": "(none)",
+        "text": ""
+      },
+      "detailed": {
+        "label": "Highly detailed",
+        "text": "A highly detailed shape that shows off meticulous detail."
+      }
+    }
+  },
+  "view": {
+    "default": "elevated_side",
+    "options": {
+      "side": {
+        "label": "Direct side",
+        "text": "Direct side-view."
+      },
+      "front": {
+        "label": "Direct front",
+        "text": "Direct front-view."
+      },
+      "top": {
+        "label": "Direct top",
+        "text": "Direct top-view."
+      },
+      "elevated_side": {
+        "label": "Slightly elevated side",
+        "text": "Slightly elevated side-view."
+      },
+      "three_quarter": {
+        "label": "Elevated 3/4 orthographic",
+        "text": "Slightly elevated three-quarters orthographic side-view with visible top and front surfaces."
+      },
+      "oblique": {
+        "label": "Oblique, 45-degree slant",
+        "text": "Oblique side view with a depth slant of up and right with a 45-degree depth angle."
+      }
+    }
+  },
+  "layout": {
+    "default": "sheet",
+    "options": {
+      "single": {
+        "label": "Single",
+        "text": "One subject seen in full, centered and isolated, filling the frame."
+      },
+      "sheet": {
+        "label": "Sheet",
+        "text": "A grid of {count} of them, {grid}, evenly spaced with wide flat gaps, every one the same size and from the same angle, but each a distinct design."
+      }
+    },
+    "grids": {
+      "2x2": 4,
+      "3x3": 9,
+      "4x4": 16
+    },
+    "default_grid": "4x4",
+    "grid_note": "Capped at 16. Krea returned 85 unreadable blobs when left uncapped (docs/generator-findings.md)."
+  },
+  "background": {
+    "default": "chroma_green",
+    "default_color": "blue",
+    "options": {
+      "chroma_green": {
+        "label": "Chroma green",
+        "text": "Flat pure chroma green background.",
+        "key": "green"
+      },
+      "chroma_magenta": {
+        "label": "Chroma magenta",
+        "text": "Flat pure chroma magenta background.",
+        "key": "magenta"
+      },
+      "environment": {
+        "label": "Themed environment",
+        "text": "In a {color} themed environment."
+      },
+      "abstract": {
+        "label": "Abstract theme",
+        "text": "Abstract background with a {color} theme."
+      },
+      "gradient": {
+        "label": "Black-to-color gradient",
+        "text": "Bold black-{color} gradient background."
+      }
+    },
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "indigo",
+      "violet",
+      "pink",
+      "magenta",
+      "cyan",
+      "teal",
+      "brown",
+      "gold",
+      "silver",
+      "white",
+      "grey"
+    ],
+    "key_note": "Only options with a 'key' can go through the converter: convert.py chroma-keys green or magenta. The themed backgrounds are for concept art and anything you will cut out by hand."
+  },
+  "style": "Chunky low-resolution pixel art with crisp stepped pixel edges, large deliberate pixel clusters, compact readable silhouette, and layered flat pixel shading. Small bright highlights, and strong light-dark separation. Clearly defined surface detail picked out in flat tone.",
+  "outlines": {
+    "default": true,
+    "text": "Thick dark outlines."
+  },
+  "palette": {
+    "default": "keep",
+    "options": {
+      "none": {
+        "label": "(none)",
+        "text": ""
+      },
+      "keep": {
+        "label": "Keep reference colors",
+        "text": "Keep the same color palette and style as original image."
+      },
+      "described": {
+        "label": "Described colors",
+        "text": "Warm coral-red, orange-peach and pale peach body colors with dark burgundy and muted purple-gray shadow clusters."
+      }
+    },
+    "palette_note": "Optional color request, last in the prompt. 'keep' is for edit mode (October 2026: Venice.ai's Edit Image with Nano Banana 2 Lite), where the reference sheet is the image being edited: it keeps the model on Orange Star's colors and AW's style. Without a reference the model picks its own colors whatever the prompt says -- 'described' gets close but drifts unit to unit (cars2.jpg), and the old hex-code option was removed because the model painted the hex codes on as car paint (cars.jpeg). The fixer snaps every color anyway."
+  }
+}

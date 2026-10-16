@@ -1,0 +1,623 @@
+burst__
+multi__
+assault__
+linear__
+buster__
+kill__
+ornate__
+bullpup__
+trench__
+mini-sized__
+mini-sized__
+mega-sized__
+giga-sized__
+tera-sized__
+peta-sized__
+yotta-sized__
+micro-sized__
+macro-sized__
+mine__
+shot__
+hand__
+charge__
+charging__
+spread__
+flood__
+splurt__
+squirt__
+splash__
+shoot__
+cleaning__
+clearing__
+shapeshifting__
+frankenstein__
+surge__
+pump__
+eruption__
+flow__
+scram__
+stream__
+flow__
+torrent__
+scatter__
+flurry__
+spate__
+cascade__
+current__
+jet__
+spray__
+panic__
+rush__
+flux__
+swirl__
+bloom__
+vortex__
+target lock on__
+soft aimbot__
+hard aimbot__
+queued firing__
+merge shot__
+parry__
+counterattack__
+flight path correcting__
+multishot claw pattern__
+multishot x pattern__
+multishot box pattern__
+multishot sphere pattern__
+multishot wall pattern__
+multishot horizontal line pattern__
+multishot vertical line pattern__
+multishot diagonal line pattern__
+multishot triangle pattern__
+multishot wedge pattern__
+multishot dome pattern__
+multishot cone pattern__
+multishot circle pattern__
+multishot square pattern__
+multishot cylinder pattern__
+multishot tsunami pattern__
+conditional firing mechanism__
+code locked__
+gesture locked__
+voice locked__
+fingerprint locked__
+retina scan locked__
+iff locked__
+id locked__
+token locked__
+reverse shooting__
+quantum entangled multishot__
+electronic-warfare__
+electronic-countermeasure__
+electronic-counter-countermeasure__
+dual-wield__
+triple-wield__
+quad-wield__
+penta-wield__
+hexa-wield__
+octo-wield__
+dual-barrel__
+triple-barrel__
+quad-barrel__
+penta-barrel__
+hexa-barrel__
+octo-barrel__
+dual-shot__
+triple-shot__
+quad-shot__
+penta-shot__
+hexa-shot__
+octo-shot__
+dual-shot__
+twin-linked__
+triple-linked__
+quad-linked__
+penta-linked__
+hexa-linked__
+octo-linked__
+gatling__
+vertical-shot__
+vertical-launch__
+horizontal-shot__
+horizontal-launch__
+diagonal-shot__
+diagonal-launch__
+omnidirectional-shot__
+omnidirectional-launch__
+selective-fire__
+single-fire__
+multi-fire__
+cycling-fire__
+auto-fire__
+smart-fire__
+sawn-off__
+snubnosed__
+pepperbox__
+adaptive__
+smart__
+tracking__
+auto__
+semiauto__
+automatic__
+semi-automatic__
+double-action__
+lever-action__
+blowback__
+water-cooled__
+liquid-cooled__
+gas-cooled__
+air-cooled__
+cryo-cooled__
+microfluidic-cooled__
+superconductor-cooled__
+metamaterial-cooled__
+smart material-cooled__
+space radiator-cooled__
+heatsink-cooled__
+breech-loaded__
+delayed-blowback__
+electrically-powered__
+roller-locked__
+rotating-bolt__
+self-loading__
+auto-loader__
+pump-action__
+artillery__
+sniper__
+battle__
+combat__
+reconnaissance__
+swarm__
+pursuit-deterrent__
+area-denial__
+clockwork__
+covert__
+rail__
+storm__
+flash__
+rotary__
+retractable__
+mini__
+mega__
+super__
+ultra__
+hyper__
+omni__
+over__
+giga__
+tera__
+peta__
+yotta__
+maxi__
+uber__
+machine__
+submachine__
+stand-off__
+surplus__
+limited-edition__
+starter__
+elite__
+deadlock__
+deadlock-breaker__
+bolt-action__
+user-pulling__
+reverse-recoil__
+modular__
+break-action__
+bullpup__
+flared-muzzle__
+lever-action__
+ornate__
+antique__
+firelock__
+caplock__
+flintlock__
+matchlock__
+ported-barrel__
+autonomous__
+hypervelocity__
+emergency__
+hold-out__
+chain__
+defence__
+protective__
+precision__
+marksman__
+hunting__
+war__
+security__
+binary__
+bombast__
+riot__
+crowd-control__
+belt-fed__
+hacker__
+harvester__
+teleporter__
+point-defense__
+shielded__
+armored__
+turbo__
+pivot__
+hinge__
+periscope__
+sensor__
+detector__
+scrambler__
+capacitor-driven__
+capacitor-assisted__
+interceptor__
+stealth__
+concealed__
+maintenance__
+probing__
+tele-operated__
+booby-trapped__
+jury-rigged__
+safety-overriden__
+satellite__
+orbiting__
+tamper-resistant__
+theft-protected__
+liquid-cooled__
+oil-cooled__
+gas-vented__
+heat-vented__
+backblast-vented__
+sideblast-vented__
+thermoelectric-cooled__
+phase-change-cooled__
+immersion-cooled__
+vapor-chamber-cooled__
+heat-pipe-cooled__
+radiative-cooled__
+cryogenic-cooled__
+nanofluid-cooled__
+magnetically-cooled__
+superconductor-cooled__
+photon-cooled__
+radiator-cooled__
+cryo-pump-cooled__
+air-cooled__
+water-cooled__
+refrigerant-cooled__
+peltier-cooled__
+liquid-nitrogen-cooled__
+liquid-helium-cooled__
+thermoelectric-cooled__
+heat-sink-cooled__
+forced-air-cooled__
+passive-air-cooled__
+evaporative-cooled__
+mist-cooled__
+ice-cooled__
+solid-state-cooled__
+acoustic-cooled__
+magnetic-refrigeration-cooled__
+thermoacoustic-cooled__
+tamper-proof__
+self-adjusting__
+biometrically-locked__
+scout__
+prototype__
+single-shot__
+recoilless__
+pop-up__
+makeshift__
+rental__
+gardening__
+cooking__
+high-capacity__
+motorized__
+solar-zone__
+lunar-zone__
+jovian-zone__
+aquatic-zone__
+hydro-zone__
+deepsea-zone__
+desert-zone__
+jungle-zone__
+winter-zone__
+swamp-zone__
+urban-zone__
+lava-zone__
+tunnel-zone__
+subterranean-zone__
+high-pressure-zone__
+mining-zone__
+garden-zone__
+farm-zone__
+industrial-zone__
+excavation-zone__
+demolition-zone__
+manufacturing-zone__
+culinary-zone__
+orbital-zone__
+orbital-ring-zone__
+nebula-cloud-zone__
+deep-space-zone__
+all-weather__
+rain-penetrating__
+snow-penetrating__
+storm-resistant__
+fog-piercing__
+wind-stabilized__
+ice-resistant__
+temperature-regulated__
+humidity-adaptive__
+pressure-sensitive__
+hail-resistant__
+lightning-shielded__
+heat-resistant__
+cold-resistant__
+humidity-resistant__
+corrosion-resistant__
+dust-storm__
+sandstorm-resistant__
+tornado-resistant__
+hurricane-resistant__
+monsoon-ready__
+flood-penetrating__
+thunderstorm-ready__
+typhoon-resistant__
+cyclone-resistant__
+drought-adaptive__
+avalanche-resistant__
+mudslide-resistant__
+gale-force__
+blizzard-proof__
+lightning-conductive__
+thermal-insulated__
+uv-protected__
+infrared-resistant__
+solar-flare-resistant__
+microburst-resistant__
+weatherproof__
+climate-adaptive__
+severe-weather__
+extreme-temperature__
+cold-weather__
+hot-weather__
+freezing-rain__
+sleet-proof__
+wind-shear__
+wind-tunnel-tested__
+thermal-barrier__
+wind-guided__
+temperature-adaptive__
+frost-resistant__
+thaw-stable__
+de-icing__
+weather-resistant__
+uv-resistant__
+glare-reducing__
+solar-radiation-resistant__
+weather-adaptive__
+erosion-resistant__
+soil-stabilized__
+wind-blast__
+lightning-conductive__
+heavy-rain__
+heavy-snow__
+heavy-wind__
+high-altitude__
+low-altitude__
+mild-weather__
+extreme-weather__
+tropical-zone__
+desert-zone__
+arctic-zone__
+polar-zone__
+subtropical-zone__
+temperate-zone__
+equatorial-zone__
+tropical-cyclone-zone__
+rainforest-zone__
+savanna-zone__
+mountain-zone__
+valley-zone__
+coastal-zone__
+maritime-zone__
+continental-zone__
+mediterranean-zone__
+wetland-zone__
+permafrost-zone__
+ice-cap-zone__
+alpine-zone__
+canyon-zone__
+plateau-zone__
+prairie-zone__
+steppe-zone__
+tundra-zone__
+taiga-zone__
+marshland-zone__
+hazard-zone__
+waste-zone__
+swamp-zone__
+riparian-zone__
+heliospheric-zone__
+chromospheric-zone__
+thermospheric-zone__
+exospheric-zone__
+stratospheric-zone__
+tropospheric-zone__
+mesospheric-zone__
+astrobiological-zone__
+planetary-ring-zone__
+exoplanetary-weather-zone__
+xenotech__
+spiritech__
+spacetech__
+hypertech__
+biotech__
+futuretech__
+nanotech__
+quantatech__
+chromatech__
+gravitech__
+warptech__
+cybertech__
+neurotech__
+chronotech__
+cryotech__
+atmotech__
+geotech__
+vibrotech__
+cosmotech__
+astrotech__
+firetech__
+aquatech__
+steamtech__
+aerotech__
+tundratech__
+jungletech__
+snowtech__
+desertech__
+veritech__
+lavatech__
+swamptech__
+crystaltech__
+embertech__
+electrotech__
+venomtech__
+radtech__
+acidtech__
+astraltech__
+phantomtech__
+voidtech__
+nebulatech__
+solartech__
+joviantech__
+lunartech__
+tunneltech__
+deepspacetech__
+orbitaltech__
+miningtech__
+gardentech__
+farmtech__
+excavationtech__
+demolitiontech__
+fabricationtech__
+hazardtech__
+wastetech__
+stealthtech__
+lasertech__
+mechtech__
+battletech__
+wartech__
+digitech__
+holotech__
+neurotech__
+synthtech__
+psytech__
+woodtech__
+arcatech__
+magnetotech__
+lumitech__
+chemtech__
+hydrotech__
+thermotech__
+ultratech__
+axial__
+gimballed__
+fabrication__
+snub__
+extended__
+long__
+short__
+wide__
+bulk__
+fat__
+bolt-action__
+recoil-mitigated__
+recoil-diffused__
+crossfire__
+elasto__
+assembly__
+disguised__
+explodable__
+doglock__
+flintlock__
+matchlock__
+snaphance__
+snaplock__
+wheellock__
+folding__
+combination__
+disposable__
+survival__
+tracker__
+salvo__
+barrage__
+civilian-edition__
+ai-assisted__
+ai-driven__
+aimbot-enabled__
+siege__
+training__
+mountain gear__
+marine gear__
+rainforest gear__
+urban gear__
+beach gear__
+forest gear__
+winter gear__
+summer gear__
+hiking gear__
+camping gear__
+climbing gear__
+survival gear__
+diving gear__
+fishing gear__
+sailing gear__
+snow gear__
+cold weather gear__
+hot weather gear__
+trekking gear__
+wilderness gear__
+safari gear__
+expedition gear__
+polar gear__
+tropical gear__
+alpine gear__
+coastal gear__
+river gear__
+swamp gear__
+high-altitude gear__
+lowland gear__
+bushcraft gear__
+cavern gear__
+outback gear__
+urban exploration gear__
+underwater gear__
+ice climbing gear__
+sand dune gear__
+volcano gear__
+glacier gear__
+canyon gear__
+randomized parameter internal ammunition forge__
+randomized parameter internal composite ammunition assembler__
+variable parameter internal ammunition forge__
+variable parameter internal composite ammunition assembler__
+rapid-fire__
+low firerate__
+high firerate__
+slow reload__
+fast reload__
+slow recharge__
+fast recharge__
+small firing delay__
+big firing delay__
+low max energy__
+low capacity__
+high capacity__
+high max energy__
+low spread__
+high spread__
+stackable__
+timer activated autofiring__
+random interval autofiring__
+set interval autofire__
+variable interval autofiring__
+low power__
+high power__

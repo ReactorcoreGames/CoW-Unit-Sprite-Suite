@@ -1,0 +1,110 @@
+gun__
+pistol__
+rifle__
+cannon__
+launcher__
+device__
+blaster__
+ejector__
+printer__
+pump__
+projector__
+emitter__
+bazooka__
+thrower__
+torch__
+lance__
+howitzer__
+trebuchet__
+catapult__
+one-shot__
+painter__
+dispenser__
+weapon__
+array__
+rack__
+repeater__
+blunderbuss__
+bombard__
+musket__
+revolver__
+carbine__
+expulsor__
+sprayer__
+hose__
+sling__
+longbow__
+recurved bow__
+arbalest__
+bow__
+crossbow__
+ballista__
+driver__
+mortar__
+caster__
+spitter__
+generator__
+hurler__
+shunt__
+pod__
+layer__
+magnum__
+shooter__
+injector__
+accelerator__
+repulsor__
+drive__
+reflector__
+detonator__
+unit dispenser__
+artifact__
+engine__
+node__
+repeater__
+implant__
+cyberware__
+skullgun__
+arquebus__
+jezail__
+derringer__
+chucker__
+flinger__
+discharger__
+lobber__
+spewer__
+pitcher__
+slinger__
+firer__
+tosser__
+impeller__
+expeller__
+bow__
+longbow__
+daikyu__
+decurve bow__
+deflex bow__
+english longbow__
+flatbow__
+self bow__
+welsh longbow__
+warbow__
+recurved bow__
+cable-backed bow__
+composite bow__
+hungarian bow__
+perso-parthian bow__
+short bow__
+reflex bow__
+gungdo__
+hwal__
+hankyu__
+mongol bow__
+turkish bow__
+crossbow__
+arbalest__
+cheiroballistra__
+gastraphetes__
+pistol crossbow__
+repeating crossbow__
+chu ko nu__
+pelletbow__

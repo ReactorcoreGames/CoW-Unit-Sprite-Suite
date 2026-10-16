@@ -1,0 +1,53 @@
+{
+  "_README": [
+    "Optional config for the Wildcard Vehicle Generator.",
+    "Rename to 'wildcards.config.json' (drop the .example) to activate it.",
+    "Delete it any time -- every setting has a built-in default, and with no",
+    "config at all the program behaves exactly as it does out of the box.",
+    "",
+    "YOU DO NOT NEED THIS FILE TO ADD OR REMOVE WILDCARD LISTS.",
+    "Slots are the .txt files themselves: drop a new one into the wildcards",
+    "folder and it becomes a slot; delete one and it goes away. Slot order is",
+    "a plain sort on the filename, which is why they are named a1, a2, a3,",
+    "b1... -- the prefix is what puts them in order. The part after the first",
+    "space is just the label shown in the GUI.",
+    "",
+    "Inside a list: one entry per line, and every entry ends in '__'.",
+    "The '__' is a SPACE, not a separator -- entries are glued together and",
+    "then every '__' becomes a space. That trailing '__' is what keeps the",
+    "spacing right when the next slot is switched off, so do not drop it.",
+    "Lines starting with '#' are ignored, so you can comment or park entries."
+  ],
+
+  "_default_slots": [
+    "Which slots are switched on when the program starts.",
+    "Default: a2, a3, c3 -- a vehicle, a connector and a gun noun.",
+    "Unknown keys are ignored; if none match, every slot starts on."
+  ],
+  "default_slots": ["a2", "a3", "c3"],
+
+  "_civilian_slots": [
+    "Which slots the 'Unarmed civilian' button leaves switched on.",
+    "Default: every slot whose name starts with 'a', except the connector.",
+    "Set this if you add slots and want to say exactly what a civilian",
+    "vehicle is made of. Unknown keys are ignored."
+  ],
+  "civilian_slots": ["a1", "a2"],
+
+  "_connector_slot": [
+    "The slot holding the joining words ('with a', 'mounting a'...).",
+    "Default: 'a3'. Only used when 'civilian_slots' is absent -- it is the",
+    "easy way to keep the default rule after renaming the connector list.",
+    "Remove the 'civilian_slots' line above to see this take effect."
+  ],
+  "connector_slot": "a3",
+
+  "_list_dirs": [
+    "Where to look for the .txt lists, relative to the program folder.",
+    "Default: the 'wildcards' folder beside the executable. Set this only if",
+    "you keep your lists somewhere else. Multiple folders are merged and",
+    "sorted together, so a slot's folder does not affect its position --",
+    "only its filename does."
+  ],
+  "list_dirs": ["wildcards"]
+}
