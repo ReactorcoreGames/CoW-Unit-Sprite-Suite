@@ -727,11 +727,14 @@ class Previewer(tb.Window):
                            variable=key_var).pack(side=LEFT, padx=(0, 14))
         tb.Label(frame, text="Snap colors to which palette?").pack(anchor=W)
         tb.Label(frame,
-                 text="'all' suits almost everything: class is not a color limit.",
+                 text="'all' for battle animations, 'map' for map units "
+                      "(CoW's brighter map colors). Class is not a color limit.",
                  style=gk.MUTED).pack(anchor=W, pady=(0, 8))
+        extras = {convert.ALL_CLASSES: "  -- every class combined (battle animations)",
+                  convert.MAP_UNITS: "  -- CoW's map unit colors"}
         for n in names:
-            pal = convert.load_class_palettes()[n]
-            extra = "  -- every class combined" if n == convert.ALL_CLASSES else ""
+            pal = convert._resolve_class(n)
+            extra = extras.get(n, "")
             tb.Radiobutton(frame, text=f"{n}  ({len(pal)} colors){extra}",
                            value=n, variable=var).pack(anchor=W, pady=1)
 

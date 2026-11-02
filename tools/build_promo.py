@@ -17,6 +17,7 @@ Writes, into promo/:
     11-16                     annotated outside material from promo/source/:
                               the Venice edit setup and result,
                               sheet -> CoW masks, color cleanup and even out
+    17_map_palette            the v1.1 map palette: dialog, swatch, all vs map
     thumbnail_630x500         itch.io thumbnail
     cover_1280x720            itch.io cover
     icon_og                   the red hero at 1024px (cover / thumbnail art)
@@ -528,6 +529,74 @@ def cleanup_cars2() -> Image.Image:
         "usual red.  3: Now it matches its neighbours in Blue Moon, Green Earth and Yellow Comet.")
 
 
+def map_palette() -> Image.Image:
+    """The v1.1 `map` palette: the dialog, why it exists, and what it changes.
+
+    The comparison is real pipeline output: CoW's own heavy tank decoded to
+    Orange Star, then quantized and encoded against `all` and against `map`.
+    """
+    import convert
+    import synth
+
+    img = canvas("NEW IN v1.1  ·  THE MAP PALETTE",
+                 "Converting map units? Pick 'map' in the Convert folder / Cut sheet dialog")
+    dlg = Image.open(NEW / "map_palette_dialog.png").convert("RGBA")
+    k = 1.4
+    dlg = dlg.resize((round(dlg.width * k), round(dlg.height * k)), Image.LANCZOS)
+    shot = Image.new("RGBA", (dlg.width + 12, dlg.height + 12), (0, 0, 0, 255))
+    shot.alpha_composite(dlg, (6, 6))
+    badge(shot, (6 + 375 * k, 6 + 207 * k), 1)
+    badge(shot, (6 + 470 * k, 6 + 182 * k), 2)
+    sx, sy = 40, 180
+    img.alpha_composite(shot, (sx, sy))
+
+    swatch = Image.open(ROOT / "pipeline" / "palette" / "map_swatch.png").convert("RGBA")
+    swatch = swatch.resize((swatch.width // 2, swatch.height // 2), Image.NEAREST)
+    wy = sy + shot.height + 30
+    img.alpha_composite(swatch, (sx, wy))
+    badge(img, (sx + swatch.width + 30, wy + 20), 3, r=18)
+
+    lx = sx + shot.width + 50
+    y = legend(img, lx, sy + 4, 1920 - lx - 40, [
+        "Map units (16–32 px): pick map. These are the colors Commander Wars' own "
+        "map sprites use.",
+        "Battle animations: keep all, the default. It comes from Advance Wars 2's battle "
+        "sprites, which are paler, so map art converted with it looks washed out.",
+        "Draw with the map colors from the start: pipeline/palette/map_swatch.png."])
+
+    with Image.open(COW_MAP / "heavy_tank+mask.png") as sp:
+        stock = synth.frame_of(sp.copy(), 0).convert("RGBA")
+    authored = synth.decode_to_authored(stock)
+    cols = [("CoW's own", stock)]
+    for name in (convert.ALL_CLASSES, convert.MAP_UNITS):
+        pal = convert._resolve_class(name)
+        cols.append((f"with {name}", convert.encode(convert.quantize_to_class(authored, pal), pal)))
+    teams = ["orange_star", "blue_moon", "green_earth"]
+    z, gap, label_w = 5, 16, 170
+    tile = stock.width * z
+    d = ImageDraw.Draw(img)
+    f = font(FONT_BOLD, 24)
+    gx = lx + label_w
+    gy = y + 30
+    for c, (title, _) in enumerate(cols):
+        d.text((gx + c * (tile + gap) + tile // 2, gy), title, font=f, fill=INK, anchor="ma",
+               stroke_width=2, stroke_fill=(0, 0, 0))
+    gy += 40
+    for r, team in enumerate(teams):
+        ry = gy + r * (tile + gap)
+        d.text((lx, ry + tile // 2), pretty(team), font=f, fill=INK, anchor="lm",
+               stroke_width=2, stroke_fill=(0, 0, 0))
+        for c, (_, sprite) in enumerate(cols):
+            cell = cp.make_background("day", (tile, tile))
+            cell.alpha_composite(scale(cp.recolor(sprite, team, PAL), z))
+            img.alpha_composite(cell, (gx + c * (tile + gap), ry))
+
+    d.text((sx + swatch.width + 64, wy + swatch.height // 2),
+           "the 43 map colors (map_swatch.png)", font=f, fill=INK, anchor="lm",
+           stroke_width=2, stroke_fill=(0, 0, 0))
+    return img
+
+
 ANNOTATED = {
     "11_edit_mode_setup": (edit_mode_setup, "venice ai edit image workflow (2).png"),
     "12_edit_mode_result": (edit_mode_result, "venice ai edit image workflow (1)_img.jpg"),
@@ -535,6 +604,7 @@ ANNOTATED = {
     "14_every_sheet": (more_sheets, "cars2.png"),
     "15_color_cleanup": (cleanup_nb3, "step5_nb3.png"),
     "16_even_out": (cleanup_cars2, "step5_cars2.png"),
+    "17_map_palette": (map_palette, "map_palette_dialog.png"),
 }
 
 

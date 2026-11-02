@@ -5,6 +5,7 @@ Outputs, all under pipeline/:
   reference/<class>.png        6x upscaled safety-green reference sheet per class
   reference/<class>_1x.png     the same sheet at native size
   palette/<class>_swatch.png   the class palette as labelled swatches
+  palette/map_swatch.png       the map-unit palette (convert.MAP_UNITS)
 """
 import collections
 import json
@@ -169,6 +170,22 @@ for cls in ORDER:
             img.paste(Image.new('RGB', (3, 3), (255, 0, 255)), (x, y))
     img.resize((img.width * 3, img.height * 3), Image.NEAREST).save(
         OUT / 'palette' / f'{cls}_swatch.png')
+
+# The map-unit palette comes from the colortable, not the AW2 battle sprites
+# above, so it has no classes.json entry -- see convert.MAP_UNITS. Aliased
+# coordinates are one color in Orange Star, so the swatch shows each RGB once.
+import convert  # noqa: E402
+map_rgb = list(dict.fromkeys(tuple(int(v) for v in c)
+                             for c in convert.map_palette().colors))
+cols = 8
+rows = (len(map_rgb) + cols - 1) // cols
+img = Image.new('RGB', (cols * (SW + PAD) + PAD, rows * (SW + PAD) + PAD), (24, 24, 24))
+for i, rgb in enumerate(map_rgb):
+    img.paste(Image.new('RGB', (SW, SW), rgb),
+              (PAD + (i % cols) * (SW + PAD), PAD + (i // cols) * (SW + PAD)))
+img.resize((img.width * 3, img.height * 3), Image.NEAREST).save(
+    OUT / 'palette' / 'map_swatch.png')
+print(f'  palette/map_swatch.png  ({len(map_rgb)} colors)')
 
 print('\nsummary')
 print(f'{"class":14s} {"units":>5s} {"colors":>7s} {"exact":>6s} {"px exact":>9s}')

@@ -7,7 +7,9 @@ view, grabs the window and closes it again. Needs a real display. It moves
 the mouse pointer to the screen corner first, so no tooltip lands in the shot.
 
 Writes promo/05_previewer.png, promo/06_wildcard_generator.png and
-promo/10_ai_fixer_gui.png (skipped without the AI test sheet).
+promo/10_ai_fixer_gui.png (skipped without the AI test sheet), plus the
+previewer's Convert settings dialog with `map` picked into
+promo/source/map_palette_dialog.png, which build_promo.py annotates as 17.
 """
 
 from __future__ import annotations
@@ -118,10 +120,49 @@ def ai_fixer() -> None:
     _shoot(app, PROMO / "10_ai_fixer_gui.png")
 
 
+def convert_dialog() -> None:
+    """The Convert/Cut settings dialog with the `map` palette picked."""
+    import previewer as pv
+
+    app = pv.Previewer()
+    app.attributes("-topmost", True)
+    out = PROMO / "source" / "map_palette_dialog.png"
+    if sys.platform == "win32":
+        import ctypes
+        ctypes.windll.user32.SetCursorPos(app.winfo_screenwidth() - 1,
+                                          app.winfo_screenheight() - 1)
+
+    def dialog():
+        win = next(w for w in app.winfo_children() if w.winfo_class() == "Toplevel")
+        stack = [win]
+        while stack:
+            w = stack.pop()
+            stack.extend(w.winfo_children())
+            if w.winfo_class() == "TRadiobutton" and str(w.cget("value")) == "map":
+                w.invoke()
+        win.attributes("-topmost", True)
+        win.lift()
+        win.update()
+        x, y = win.winfo_rootx(), win.winfo_y()
+        w = win.winfo_width()
+        h = win.winfo_rooty() - y + win.winfo_height()
+        out.parent.mkdir(exist_ok=True)
+        ImageGrab.grab((max(0, x), max(0, y), x + w, y + h)).save(out)
+        print(f"source/{out.name}  {w}x{h}")
+        win.destroy()
+
+    app.after(SETTLE_MS, dialog)
+    app.after(800, app._ask_unit_class)
+    app.after(SETTLE_MS + 500, app.quit)
+    app.mainloop()
+    app.destroy()
+
+
 def main() -> int:
     previewer()
     wildcard_generator()
     ai_fixer()
+    convert_dialog()
     return 0
 
 

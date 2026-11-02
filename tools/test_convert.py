@@ -248,6 +248,41 @@ def test_table_palettes() -> None:
     check(len(both) > len(only), "multi-band palette is larger than one band")
 
 
+def test_map_palette() -> None:
+    """The `map` palette reproduces CoW's own map units; `all` does not.
+
+    `all` is sampled from AW2 battle sprites, whose shades are not the map
+    units' -- a user converting map-scale art against it got battle colors.
+    Every shipped map unit is decoded to Orange Star and re-encoded with no
+    grid step in between, so this measures the palette alone. The floor is the
+    measured figure: the three misses are `infantry+bh` (the documented alias)
+    and two sprites off by 4 px.
+    """
+    section("map palette")
+
+    names = convert.class_names()
+    check(names[:2] == [convert.ALL_CLASSES, convert.MAP_UNITS],
+          f"'map' is listed right after 'all' ({names[:3]})")
+    pal = convert._resolve_class(convert.MAP_UNITS)
+    check(pal.name == convert.MAP_UNITS, "map palette is named 'map'")
+
+    def identical(target) -> int:
+        n = 0
+        for path in corpus(len(list(MAP_UNITS.glob("*.png")))):
+            with Image.open(path) as sp:
+                fr = synth.frame_of(sp.copy(), 0).convert("RGBA")
+            auth = synth.decode_to_authored(fr)
+            enc = convert.encode(convert.quantize_to_class(auth, target), target)
+            n += not teams_differing(enc, fr)
+        return n
+
+    got, base = identical(pal), identical(convert.ALL_CLASSES)
+    total = len(list(MAP_UNITS.glob("*.png")))
+    check(got >= 52, f"map palette reproduces at least 52 of {total} map units ({got})")
+    check(base < got, f"'all' does worse on map units ({base} vs {got})")
+    print(f"    map {got}/{total} identical in all teams, all {base}/{total}")
+
+
 def test_chroma_key() -> None:
     section("chroma key")
 
@@ -628,6 +663,7 @@ def main() -> int:
     tests = [
         test_class_palettes,
         test_table_palettes,
+        test_map_palette,
         test_chroma_key,
         test_grid_detection,
         test_modal_beats_point_sampling,

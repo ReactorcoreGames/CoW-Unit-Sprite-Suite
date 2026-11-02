@@ -100,10 +100,10 @@ def load_class_palettes(path: pathlib.Path | str | None = None) -> dict[str, Cla
 
 
 def class_names(path: pathlib.Path | str | None = None) -> list[str]:
-    """`all` first -- it is the default -- then the real classes, sorted."""
+    """`all` first -- it is the default -- then `map`, then the real classes, sorted."""
     names = sorted(load_class_palettes(path))
     names.remove(ALL_CLASSES)
-    return [ALL_CLASSES, *names]
+    return [ALL_CLASSES, MAP_UNITS, *names]
 
 
 # The default quantization target: every class's observed colors at once.
@@ -112,6 +112,26 @@ def class_names(path: pathlib.Path | str | None = None) -> list[str]:
 # skin at all -- and a single-class palette snaps such pixels to whatever wrong
 # color it does have, silently.
 ALL_CLASSES = "all"
+
+# The target for map-scale art. `classes.json` was sampled from AW2 *battle*
+# sprites, whose colors are paler than the map units' and share only one RGB
+# with them, so `all` snaps map art to battle-animation shades. CoW's own map
+# units are encoded on these three colortable bands (48 of 55 on `unit` alone,
+# the rest mixing in `infantry` or `smallvehicle`). Measured on the 55 shipped
+# map units decoded to Orange Star and re-encoded: this palette renders 52
+# identically in all 32 teams, `unit` alone 41, `all` none.
+MAP_UNITS = "map"
+MAP_BANDS = ("unit", "infantry", "smallvehicle")
+_MAP_CACHE: ClassPalette | None = None
+
+
+def map_palette() -> ClassPalette:
+    """The `map` palette, read from the colortable's map-unit bands, memoized."""
+    global _MAP_CACHE
+    if _MAP_CACHE is None:
+        _MAP_CACHE = dataclasses.replace(table_class_palette(MAP_BANDS),
+                                         name=MAP_UNITS)
+    return _MAP_CACHE
 
 
 def _union_palette(classes: dict) -> ClassPalette:
@@ -978,10 +998,12 @@ class EncodeError(RuntimeError):
 def _resolve_class(unit_class: str | ClassPalette) -> ClassPalette:
     if isinstance(unit_class, ClassPalette):
         return unit_class
+    if unit_class == MAP_UNITS:
+        return map_palette()
     table = load_class_palettes()
     if unit_class not in table:
         raise KeyError(f"unknown unit class {unit_class!r}; "
-                       f"have {sorted(table)}")
+                       f"have {class_names()}")
     return table[unit_class]
 
 

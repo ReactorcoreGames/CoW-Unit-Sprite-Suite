@@ -43,7 +43,7 @@ A Commander Wars unit sprite is not a normal picture. Its **red and green channe
 
 ### Drawing
 
-- **Colors:** Orange Star red for the team-colored parts, plus the neutral greys, blacks, skin tones and water blues the reference units use. `pipeline/palette/<class>_swatch.png` shows each class's exact colors. Off-palette colors still work — they get snapped to the nearest one — but you lose control over the result.
+- **Colors:** Orange Star red for the team-colored parts, plus the neutral greys, blacks, skin tones and water blues the reference units use. `pipeline/palette/<class>_swatch.png` shows each class's exact colors; for map units use `pipeline/palette/map_swatch.png` instead, since CoW's map sprites use their own, brighter colors. Off-palette colors still work — they get snapped to the nearest one — but you lose control over the result.
 - **Red means team color.** Anything red changes per army. Keep red off parts that should stay the same in every army.
 - **Background:** exactly `#00ff00`, flat. No anti-aliasing against it, no soft brushes on edges.
 - **Size:** CoW map units are 16–32 px. Battle animations are freeform. Draw at 1x, or upscale by any whole number. The cutter finds each unit's scale separately, so mixed scales on one sheet are fine.
@@ -54,7 +54,7 @@ A Commander Wars unit sprite is not a normal picture. Its **red and green channe
 - **A sheet with many units → Cut sheet…** Output goes to `output/cut/<sheet>/`. Units are numbered in reading order; `rgb/<sheet>.index.png` shows the numbers. To name them, put a text file named `<sheet>.names.txt` next to the sheet, one name per line in that order (`-` keeps the number), and cut again.
 - **A folder of single-unit images → Convert folder…** Output goes to `output/converted/`. Do not put a multi-unit sheet through this — it will lock onto the spacing between units and give confident nonsense. Sheets go through Cut sheet.
 - Both ask which **background color** to remove: green `#00ff00` (the default, and what hand-drawn art uses) or magenta `#ff00ff` (for AI images made on a magenta background, or art that itself uses bright green).
-- Both ask which **class palette** to use. Leave it on `all` unless you have a reason not to; class is not a color limit, so a tank's driver keeps their skin tone.
+- Both ask which **palette** to use. Use `all` for battle animations and `map` for map units. `all` comes from Advance Wars 2's battle sprites, which are paler than the map sprites, so map-sized art converted with it comes out in battle colors. `map` is the set of colors CoW's own map units use. The single-class palettes are there if you want to restrict a conversion; class is not a color limit, so a tank's driver keeps their skin tone under `all`.
 
 What happens inside: green is keyed out → the true pixel grid is found → each pixel cell is reduced to its main color → colors snapped to the palette → encoded into CoW's mask format → checked against all 32 army tables. Anything the converter is unsure of goes to `needs-review/` with its in-between images and a reason, instead of being guessed at.
 

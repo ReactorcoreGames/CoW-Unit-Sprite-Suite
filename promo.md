@@ -2,6 +2,28 @@
 
 Free, open-source (MIT) modding tool, so no business model section. The aim is findability: put it where Commander Wars modders and Advance Wars fans already look, and let it sit there.
 
+## Quick Summary I can copy pasta
+```
+# CoW Unit Sprite Suite
+https://reactorcore.itch.io/cow-unit-sprite-suite
+
+Whether you want to make Advance Wars style sprites in different team colors or create mods for Commander Wars that feature new units, this toolbox has a set of programs and resources to make it easier than ever!
+
+## CoW Sprite Previewer.exe
+- Lets you view existing mask sprites in any team color
+- Create cool sprite collages (unit roster in a single all-in-one image)
+- Cut spritesheets into individual images
+- Convert images to the correct palette that fits CoW.
+
+## CoW Wildcard Generator.exe
+- Endless ideas for new units. (its a text generator)
+- An AI workflow that gives you a curated prompt and reference image that you can feed into your favorite AI art generator and it will create a sheet that can be converted into fully usable CoW sprites with a single click.
+
+## CoW AI Sprite Fixer.exe
+- Despite its name its both for hand-made sheets or AI made sheets.
+- You load them in, it fixes the colors, splits each item on the list into its own individual image and converts them to the CoW palette.
+```
+
 ## Strategy
 
 - **Lead with the workflow, not the novelty.** The hook is "draw in normal Orange Star red, the suite handles CoW's bizarre mask format". Drawing directly in the mask palette is what puts people off making units; the suite removes that step. The 32-army preview is a nice extra for showing units off to communities, so use `promo/01_one_sprite_32_armies.png` as eye candy, not as the pitch.

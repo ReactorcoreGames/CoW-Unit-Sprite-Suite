@@ -506,7 +506,8 @@ def main(argv: list[str] | None = None) -> int:
                          "('-' or blank keeps the positional name); default: "
                          "SHEET.names.txt beside the sheet, if present")
     ap.add_argument("--class", dest="unit_class", default=convert.ALL_CLASSES,
-                    help="unit class from pipeline/classes.json (default: all)")
+                    help="unit class from pipeline/classes.json, 'map' for CoW's "
+                         "map-unit colors (default: all)")
     ap.add_argument("--key", default="green", choices=sorted(convert.CHROMA_KEYS),
                     help="backdrop color; transparent sheets need no key (default: green)")
     ap.add_argument("--tolerance", type=int, default=90,

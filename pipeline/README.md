@@ -27,6 +27,10 @@ So `convert.py` synthesizes an `all` palette: the union of the six, **63 colors*
 
 The single-class palettes remain available (`--class ship`) for deliberately constraining a conversion.
 
+## Map units use `map`, not `all`
+
+Everything above is sampled from AW2 **battle** sprites. CoW's map units are encoded on different colortable bands (`unit`, plus `infantry` or `smallvehicle` on 7 of the 55), whose colors are brighter and share only one RGB with `all`. Map-scale art converted against `all` therefore comes out in battle-animation shades. `--class map` (and *map* in the previewer's Convert/Cut dialog) reads those three bands straight from the colortable: 45 entries, 43 distinct colors, shown in `palette/map_swatch.png`. Decoding the 55 shipped map units to Orange Star and re-encoding them, `map` renders 52 identically in all 32 teams and `all` none; `test_convert.py` pins this.
+
 ## What is here
 
 | Path | What it is |
@@ -37,6 +41,7 @@ The single-class palettes remain available (`--class ship`) for deliberately con
 | `reference/units/<Unit> - <Army>.png` | 91 single units, every AW2 unit from all five armies recolored to Orange Star red, 6x on `#00ff00`. Built by `tools/build_references.py` |
 | `reference/units/1x/` | The same units at native size |
 | `palette/<class>_swatch.png` | The class palette as swatches; a magenta corner dot marks an inexact color |
+| `palette/map_swatch.png` | The map-unit palette (`--class map`), read from the colortable |
 
 Sheets are upscaled 6x because models do not emit alpha, and large blocky pixels make the pixel structure the dominant feature to imitate.
 

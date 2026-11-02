@@ -55,8 +55,9 @@ def main(argv: list[str] | None = None) -> int:
 
     tgt = ap.add_mutually_exclusive_group()
     tgt.add_argument("--class", dest="unit_class", default=convert.ALL_CLASSES,
-                     help="unit class from pipeline/classes.json, or 'all' for the union "
-                          "of every class (default: all)")
+                     help="unit class from pipeline/classes.json, 'all' for the union "
+                          "of every class (default: all), or 'map' for CoW's map-unit "
+                          "colors")
     tgt.add_argument("--band", nargs="+", metavar="BAND",
                      help="colortable band(s) instead, e.g. --band unit, "
                           f"from {list(cowpalette.UNIT_CLASSES)}")
